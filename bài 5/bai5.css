@@ -1,0 +1,43 @@
+* {
+    margin: 0;/*thiết lập căn lề là 0*/
+    padding: 0;/*khoảng trống tính từ đuwongf viền của phần tử đến nội dung phần tử là o*/
+  }
+   /*==Style cơ bản cho website==*/
+  body {
+    font-family: sans-serif;/*áp dụng kiểu chữ sans-serif cho toàn bộ nội dung bên trong body*/
+    color: #ffd2ff;/*đặt màu chữ của toàn bộ nội dung bên trong body*/
+  }
+  /*==Style cho menu===*/
+#menu ul {
+    background: #003663;/*đặt màu nền cho phần menu */
+    list-style-type: none;/*Áp dụng các style cho phần danh sách không có dấu chấm*/
+    text-align: center;/*căn giữa các phần tử trong menu*/
+  }
+  #menu li {
+    color: #f1f1f1;/* đặt màu chữ cho các mục con trong menu */
+    display: inline-block;/*hiển thị các mục con trong menu theo cùng một hàng*/
+    width: 50px;/*đặt chiều rộng cho các mục con trong menu là 120px.*/
+    height: 20px;/*đặt chiều cao cho các mục con trong menu là 40px*/
+    line-height: 20px;/*thiết lập đối tượng dọc theo chiều cao của nó.*/
+    margin-left: -5px;/*điều chỉnh khoảng cách từ bên trái của mỗi mục con trong menu*/
+  }
+  #menu ul { 
+   background-color: #1F568B;/*Đặt màu nền cho nhóm các phần tử "ul" */
+    list-style-type: none;/*Loại bỏ kiểu đánh dấu mặc định của danh sách cho nhóm các phần tử "ul"*/
+    overflow: hidden;/*Đặt cách hiển thị nội dung của nhóm các phần tử "ul"*/
+    width: 100%;/**/
+  }
+  #menu a {
+    text-decoration: none;/*loại bỏ gạch chân của các liên kết trong menu.*/
+    color: #fff;/*đặt màu chữ của các liên kết trong menu */
+    display: block;/*Thiết lập chiều rộng của nhóm các phần tử "ul" */
+  }
+  #menu a:hover {
+    width: 60px;
+    height: 24px;
+    background: #F1F1F1;/*đặt màu nền cho các liên kết khi di chuột qua */
+    color: #004a80;/*đặt màu chữ của các liên kết khi di chuột qua */
+  }
+  
+
+  

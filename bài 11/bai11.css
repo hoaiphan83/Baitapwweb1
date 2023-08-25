@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.mot{
+    height: 100px;
+    width: 1000;
+}
+.left {
+    width: 204px;
+    height: 400px;
+    background-color: beige;
+    float: left;
+}
+
+.content {
+    height: 400px;
+    background-color: #fff;
+    overflow: auto;
+}
+
+footer {
+    height: 70px;
+    background-color: #0ff;
+    text-align: center;
+    line-height: 70px;
+}
+    

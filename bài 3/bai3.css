@@ -1,0 +1,28 @@
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  .menu li {
+    display: inline;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu li:hover a {
+    background-color: #d1e3db;
+  }
+  
+  .menu li:first-child a {
+    background-color: #e0ede9;
+  }
+  
+  

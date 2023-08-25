@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trang web</title>
+    <link rel="stylesheet" href="bai11.css">
+</head>
+<body>
+    <header>
+        <img class="mot" src="hinhnen.jpg" >
+        <img class="mot" src="hinhnen.jpg" >
+        <img class="mot" src="hinhnen.jpg" >
+        <img class="mot" src="hinhnen.jpg" >
+        <img class="mot" src="hinhnen.jpg" >
+        <img class="mot" src="hinhnen.jpg" >
+        <img class="mot" src="hinhnen.jpg" >
+        <img class="mot" src="hinhnen.jpg" >
+        
+     </header>
+    
+    <div class="left" >
+        <ul>
+            <li onclick="showContent('home')">Trang chủ</li>
+            <li onclick="showContent('news')">Tin tức</li>
+        </ul>
+    </div>
+
+    <div class="content" id="content">
+        <h2>Nội dung</h2>
+    </div>
+    
+    <footer>
+        <h3>Copyright 2015- HỌC ĐỂ BIẾT, HỌC ĐỂ LÀM, HỌC ĐỂ KHẲNG ĐỊNH </h3>
+    </footer>
+
+    <script>
+        function showContent(page) {
+            var content = document.getElementById("content");
+            if (page === "home") {
+                content.innerHTML = "<h2>Lĩnh vực chuyên môn của tin học</h2><ul><li>Lập trình cho thiết bị di động, ứng dụng, game.</li><li>Lập trình ứng dụng với Java, C# với các hệ quản trị cơ sở dữ liệu như MYSQL, SQLServer.</li><li>Thiết kế web với HTML.</li><li>Thiết kế và quản trị web với Wordpress.</li><li>Lập trình web với PHP.</li><li>Phân tích và thiết kế cơ sở dữ liệu.</li><li>Ngoài ra, chúng tôi còn tổng hợp đồ án về lập trình, an ninh mạng, đò án cao học để phục vụ cho quý độc giả.</li></ul>"
+                ;
+            } else if (page === "news") {
+                content.innerHTML = "<h2>Chiến lược học tập mỗi ngày</h2><p>Nội dung cần đạt được mỗi ngày của nhóm PHP & MySQL</p>";
+            }
+        }
+    </script>
+</body>
+</html>
+

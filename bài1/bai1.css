@@ -1,0 +1,19 @@
+body{
+    background-color: #FFD2FF;/*thiết lập màu nền cho trang web*/
+}
+h1 {
+    text-align: center;/*sử dụng để căn đều nội dung trong các thẻ `p`*/
+    text-transform: uppercase;/* sử dụng để chuyển đổi nội dung trong thẻ `h1` thành chữ in hoa.*/
+    color:#4CAF50;/*TẠO MÀU ĐỎ CHO H1*/
+}
+
+p {
+    text-indent: 50px;/*lùi vào văn bản trong thẻ `p` 50px*/
+    text-align: justify;/*căn chỉnh đều đoạn văn*/
+    letter-spacing: 3px;/*thiết lập khoảng cách giữa các ký tự trong thẻ `p`.*/
+}
+
+a {
+    text-decoration: none;/*xóa gạch chân trong liên kết `a`*/
+}
+

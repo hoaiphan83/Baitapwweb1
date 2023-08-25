@@ -1,0 +1,31 @@
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.header {
+    height: 100px;
+    background-color: blue;
+}
+.menu {
+    height: 30px;
+    background-color: red;
+}
+.content {
+    display: flex;
+}
+.left {
+    width: 204px;
+    height: 150px;
+    background-color: green;
+}
+.right {
+    flex-grow: 1;
+    height: 100px;
+    background-color: yellow;
+}
+.footer {
+    height: 70px;
+    background-color: purple;
+}
+

@@ -1,0 +1,26 @@
+.container-box{
+    width:100%;				
+    margin:0 auto;
+}
+.header{				
+    background-color:#4DCE7A;
+    height:100px;
+}
+.main-box{
+    background-color:#000;
+}
+.main-box .left{
+    background-color:#E15B39;
+    width:150px;
+    min-height:400px;
+    float:left;				
+}
+.main-box .content{
+    background-color:#DF3CD2;
+}
+.footer{
+    background-color:#DCF724;
+}
+.xoa-float{
+    clear:both;
+}
